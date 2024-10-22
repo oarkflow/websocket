@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coder/websocket/internal/errd"
+	"github.com/oarkflow/websocket/internal/errd"
 )
 
 // DialOptions represents Dial's options.

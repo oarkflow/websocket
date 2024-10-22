@@ -7,9 +7,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/coder/websocket"
-	"github.com/coder/websocket/internal/test/xrand"
-	"github.com/coder/websocket/internal/xsync"
+	"github.com/oarkflow/websocket"
+	"github.com/oarkflow/websocket/internal/test/xrand"
+	"github.com/oarkflow/websocket/internal/xsync"
 )
 
 // EchoLoop echos every msg received from c until an error

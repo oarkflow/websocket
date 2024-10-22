@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/coder/websocket"
+	"github.com/oarkflow/websocket"
 )
 
 // Pipe is used to create an in memory connection

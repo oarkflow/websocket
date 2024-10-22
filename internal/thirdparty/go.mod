@@ -1,11 +1,11 @@
-module github.com/coder/websocket/internal/thirdparty
+module github.com/oarkflow/websocket/internal/thirdparty
 
 go 1.19
 
-replace github.com/coder/websocket => ../..
+replace github.com/oarkflow/websocket => ../..
 
 require (
-	github.com/coder/websocket v0.0.0-00010101000000-000000000000
+	github.com/oarkflow/websocket v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.9.1
 	github.com/gobwas/ws v1.3.0
 	github.com/gorilla/websocket v1.5.0

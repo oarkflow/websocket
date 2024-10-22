@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/coder/websocket"
+	"github.com/oarkflow/websocket"
 )
 
 // echoServer is the WebSocket echo server implementation.

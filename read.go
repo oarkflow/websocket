@@ -14,8 +14,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coder/websocket/internal/errd"
-	"github.com/coder/websocket/internal/util"
+	"github.com/oarkflow/websocket/internal/errd"
+	"github.com/oarkflow/websocket/internal/util"
 )
 
 // Reader reads from the connection until there is a WebSocket

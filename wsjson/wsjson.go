@@ -1,15 +1,15 @@
 // Package wsjson provides helpers for reading and writing JSON messages.
-package wsjson // import "github.com/coder/websocket/wsjson"
+package wsjson // import "github.com/oarkflow/websocket/wsjson"
 
 import (
 	"context"
 	"encoding/json"
 	"fmt"
 
-	"github.com/coder/websocket"
-	"github.com/coder/websocket/internal/bpool"
-	"github.com/coder/websocket/internal/errd"
-	"github.com/coder/websocket/internal/util"
+	"github.com/oarkflow/websocket"
+	"github.com/oarkflow/websocket/internal/bpool"
+	"github.com/oarkflow/websocket/internal/errd"
+	"github.com/oarkflow/websocket/internal/util"
 )
 
 // Read reads a JSON message from c into v.
